@@ -15,10 +15,10 @@ app.use(cors())
 
 // Create a connection pool to manage database connections
 const pool = mysql.createPool({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME,
+  host: 'b0by8zqktu8bn6poqbtm-mysql.services.clever-cloud.com',
+  user: 'upnkocr6y4897dyc',
+  password: 'TT1c039SbFFee0aec6uZ',
+  database: 'b0by8zqktu8bn6poqbtm',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
